@@ -7,5 +7,6 @@ run-local:
 
 
 deploy:
+	gcloud config set app/cloud_build_timeout 4200
 	RAILS_ENV=production bundle exec rails assets:precompile
 	gcloud app deploy
