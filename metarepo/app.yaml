@@ -1,0 +1,6 @@
+entrypoint: bundle exec rackup --port $PORT
+env: flex
+runtime: ruby
+env_variables:
+  SECRET_KEY_BASE: 5b7bfc0f4de3a937cdefff2a0dfd24e5e469e299406f6fb42ff62bfcaf9a8d45b6dbfef5b8fdfa883abdff4fc6abecc832498420afb106003db6e5456bca630d
+  RICC_FAVORITE_COLOR: giallo

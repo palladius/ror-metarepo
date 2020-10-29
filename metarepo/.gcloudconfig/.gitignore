@@ -1,0 +1,8 @@
+active_config
+config_sentinel
+configurations
+gce
+logs
+.last_survey_prompt.yaml
+.last_update_check.json
+.metricsUUID
