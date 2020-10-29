@@ -6,7 +6,6 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
 * System dependencies
 
 * Configuration
@@ -22,3 +21,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## docs
+
+Copied from https://cloud.google.com/ruby/rails/appengine 
+riccardo document: go/ricc-ruby
+
