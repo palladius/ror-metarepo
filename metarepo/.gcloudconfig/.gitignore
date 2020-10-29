@@ -6,3 +6,6 @@ logs
 .last_survey_prompt.yaml
 .last_update_check.json
 .metricsUUID
+access_tokens.db
+credentials.db
+legacy_credentials/
