@@ -1,0 +1,7 @@
+# Class ricc-repo-info.yaml
+DeployURL: https://metarepo.oa.r.appspot.com/cats
+gcp:
+  ProjectId: metarepo
+  PantheonURLs:
+    CloudSQL: https://console.cloud.google.com/sql/instances/rails-cloudsql-instance/overview?walkthrough_id=sql_connect_gce_vm&project=metarepo
+

@@ -18,7 +18,7 @@
 entrypoint: bundle exec rackup --port $PORT
 env: flex
 runtime: ruby
-#module: prova-mysql
+module: cats-on-riccardo-cloudsql
 # [END step_1]
 
 env_variables:
