@@ -21,14 +21,3 @@ Rails.application.routes.draw do
   root "cats#index"
 end
 # [END cat_routes]
-
-=begin
-# [START boilerplate]
-Rails.application.routes.draw do
-  resources :cats
-  get 'cats/index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-end
-# [END boilerplate]
-=end

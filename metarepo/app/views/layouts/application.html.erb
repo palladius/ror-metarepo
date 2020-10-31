@@ -11,5 +11,7 @@
 
   <body>
     <%= yield %>
+    <hr/>
+    Metarepo v. <b><%= File.open("#{Rails.root}/VERSION", "r").read.strip %> </b>
   </body>
 </html>
