@@ -8,3 +8,4 @@ config/secrets.yml.key
 README.aspirina
 mysql-test.sh
 mysql-connect
+*~

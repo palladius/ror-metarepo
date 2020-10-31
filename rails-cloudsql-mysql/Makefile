@@ -9,4 +9,9 @@ deploy:
 	RAILS_ENV=production bundle exec rails assets:precompile
 	time gcloud app deploy
 test-cloudsql:
+	@echo 0. Just run a PROD rake to see if anything is wrong here.
+	GOOGLE_AUTH_SUPPRESS_CREDENTIALS_WARNINGS=false RAILS_ENV=production rake db:setup
+	@echo 1. Test mysql as is
+	echo "use cat_list_production; show tables; " | ./mysql-connect
+	@echo 2. Test mysql from RoR PROD connector
 	echo Cat.all | GOOGLE_AUTH_SUPPRESS_CREDENTIALS_WARNINGS=fals RAILS_ENV=production rails console

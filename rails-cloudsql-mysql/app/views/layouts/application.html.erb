@@ -25,6 +25,9 @@
   <body>
     <%= yield %>
     <hr/>
-	rails-cloudsql-mysql version TODO - RAILS_ENV: <%=Rails.env %>
+	rails-cloudsql-mysql 
+  VERSION: <b><%= File.open("#{Rails.root}/VERSION", "r").read.strip %></b> - 
+  RAILS_ENV: <%=Rails.env %>
   </body>
+
 </html>
